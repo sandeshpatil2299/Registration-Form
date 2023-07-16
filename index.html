@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Registration form</title>
+</head>
+<body>
+   <div class="container">
+      <form action="" method="post">
+         <h2>Registration</h2>
+
+         <div class="content">
+            <div class="fullName inputField">
+               <label for="fullName">Full Name</label>
+               <input type="text" name="fullName" id="fullName" required>
+            </div>
+
+            <div class="userName inputField">
+               <label for="userName">Username</label>
+               <input type="text" name="userName" id="userName" required>
+            </div>
+
+            <div class="email inputField">
+               <label for="email">Email</label>
+               <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="phoneNumber inputField">
+               <label for="phoneNumber">Phone Number</label>
+               <input type="tel" name="phoneNumber" id="phoneNumber" required>
+            </div>
+
+            <div class="password inputField">
+               <label for="password">Password</label>
+               <input type="password" name="password" id="password" required>
+            </div>
+
+            <div class="confirmPass inputField">
+               <label for="confirmPass">Confirm Password</label>
+               <input type="password" name="confirmPass" id="confirmPass" required>
+            </div>
+
+            <div class="gender">
+               <div class="genderTitle">Gender</div>
+                  
+               <input type="radio" name="gender" id="male">
+               <label for="male">Male</label>
+               
+               <input type="radio" name="gender" id="female">
+               <label for="female">Female</label>
+
+               <input type="radio" name="gender" id="Other">
+               <label for="Other">Other</label>
+            </div>
+         </div>
+
+         <div class="terms">
+            <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies</a> Policy. You may receive SMS notifications from us and can op out at any time.</p>
+         </div>
+
+         <div class="btn">
+            <button type="submit">Register</button>
+         </div>
+      </form>
+   </div>   
+</body>
+</html>
